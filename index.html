@@ -2,38 +2,43 @@
 <html>
     <head>
         <title>Mi portfolio personal</title>
+        <link rel="stylesheet" href= "./style.css"/>
     </head>
     <body>
+      <div class="animate"></div>
         <header>
-            <nav>
-                <ul>
-                  <a href="#acerca-de-mi">Acerca de mí</a>
-                  <a href="#habilidades">Habilidades</a>
-                  <a href="#experiencia">Experiencia</a>
-                  <a href="#proyectos">Proyectos</a>
-                  <a href="#contacto">Contacto</a>
-                </ul>
-              </nav>
             <h1>Denise Estigarribia</h1>
             <h2>Web Developer</h2>
         </header>
-        <main>
-            <section id="acerca-de-mi">
-                <h2>Acerca de mi</h2>
-                <p></p>
+        <main id="main">
+            <section >
+              <details>
+                <summary id="acerca-de-mi">Acerca de mi</summary>
+                    <p>Como desarrollador web junior, fusiono mi pasión por el diseño y la
+                  programación para crear experiencias web excepcionales. Me esfuerzo por
+                  cada línea de código y cada detalle de diseño para asegurarme de que mis
+                  sitios web sean visualmente atractivos, funcionales y accesibles para
+                  todos. Estoy comprometido a seguir aprendiendo y mejorando continuamente
+                  mientras busco oportunidades desafiantes que amplíen mi experiencia en el
+                  desarrollo web.</p>
+              </details>
             </section>
-            <section id="habilidades">
-                <h2>Habilidades</h2>
-                <ul>
+            <section >
+                <details>
+                  <summary id="habilidades">Habilidades</summary>
+                  <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>Git</li>
                     <li>Metodologias agiles</li>
                 </ul>
+                </details>
+                
             </section>
             <section id="experiencia">
-                <h2>Experiencia</h2>
+              <details>
+                <summary>Experiencia</summary>
                 <ul>
                   <li>
                     <b>Empresa X</b> (2022-presente)
@@ -55,27 +60,27 @@
                       </li>
                     </ul>
                   </li>
-                </ul>
+                </ul> 
+              </details>
               </section>
-              <section id="proyectos">
-                <h2>Proyectos</h2>
-                <ul>
-                  <li>
-                    <a href="https://www.nytimes.com/games/wordle/index.html"
-                      >Clon de Wordle</a
-                    >
-                    <p>Descripción del proyecto 1</p>
-                  </li>
-                  <li>
-                    <a href="https://www.nytimes.com/games/wordle/index.html"
-                      >Proyecto 2</a
-                    >
-                    <p>Descripción del proyecto 2</p>
-                  </li>
-                </ul>
+              <section >
+                <details>
+                  <summary id="proyectos">Proyectos</summary>
+                    <ul>
+                      <li>
+                        <a href="https://www.nytimes.com/games/wordle/index.html">Clon de Wordle</a>
+                        <p>Descripción del proyecto 1</p>
+                      </li>
+                      <li>
+                        <a href="https://www.nytimes.com/games/wordle/index.html">Proyecto 2</a>
+                        <p>Descripción del proyecto 2</p>
+                      </li>
+                    </ul>
+                </details>
               </section>
-              <section id="contacto">
-                <h2>Contacto</h2>
+              <section>
+                <details>
+                  <summary id="contacto">Contacto</summary>
                 <ul>
                   <li>Email: deniseestigarribia@hotmail.com</li>
                   <li>Teléfono: +543765008418</li>
@@ -91,13 +96,13 @@
                       <li>
                         <a href="https://www.linkedin.com/in/tucuenta">LinkedIn</a>
                       </li>
-                      <!-- Agrega más redes sociales si lo deseas -->
                     </ul>
                   </li>
                 </ul>
+                </details>
               </section>
         </main>
-        <footer>
+        <footer id="footer">
             <p>Copyright &copy; 2024</p>
         </footer>
     </body>
